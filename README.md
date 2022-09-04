@@ -1,3 +1,5 @@
+# Grocery Classifier Demo
+
 ---
 title: Grocery Classifier Demo
 emoji: 🛒
