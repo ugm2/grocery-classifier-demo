@@ -18,7 +18,3 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           git push https://ugaray96:$HF_TOKEN@huggingface.co/spaces/ugaray96/grocery-classifier-demo master
-          echo $HF_TOKEN >> secrets.txt
-
-      - name: Run tmate
-        uses: mxschmitt/action-tmate@v2
