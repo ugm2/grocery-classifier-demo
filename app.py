@@ -80,8 +80,10 @@ def main():
             # Retrain from feedback
             if st.button("Retrain from feedback"):
                 try:
-                    retrain_from_feedback()
+                    with st.spinner('Retraining...'):
+                        retrain_from_feedback()
                     st.success("Model retrained")
+                    st.balloons()
                 except Exception as e:
                     st.warning("Model could not be retrained. Error: {}".format(e))
                     
