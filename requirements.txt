@@ -1,0 +1,11 @@
+Pillow
+requests
+numpy
+transformers
+scikit-learn
+datasets
+streamlit
+matplotlib
+scikit-image
+torch
+torchvision
