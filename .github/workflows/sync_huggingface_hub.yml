@@ -17,4 +17,4 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git push https://ugaray96:$HF_TOKEN@huggingface.co/spaces/ugaray96/grocery-classifier-demo master
+          git push https://ugaray96:$HF_TOKEN@huggingface.co/spaces/ugaray96/grocery-classifier-demo main
