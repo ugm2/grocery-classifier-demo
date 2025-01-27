@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 
-@st.cache_resource()
+@st.cache()
 def load_model():
     with st.spinner("Loading model"):
         model = ViTForImageClassification("google/vit-base-patch16-224")
